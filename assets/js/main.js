@@ -223,17 +223,17 @@
 })();
 
 function initStats() {
-  $.getJSON("https://app.aintissue.com/stats.json", function(data) {
-    console.log(data);
+  // $.getJSON("https://app.aintissue.com/stats.json", function(data) {
+  //   console.log(data);
 
-    $("#users").attr("data-purecounter-end", data.users);
-    $("#projects").attr("data-purecounter-end", data.projects);
-    $("#messages").attr("data-purecounter-end", data.messages);
-    $("#bots").attr("data-purecounter-end", data.bots);
+  //   $("#users").attr("data-purecounter-end", data.users);
+  //   $("#projects").attr("data-purecounter-end", data.projects);
+  //   $("#messages").attr("data-purecounter-end", data.messages);
+  //   $("#bots").attr("data-purecounter-end", data.bots);
 
-      /**
-     * Initiate Pure Counter
-     */
-    new PureCounter();
-  });
+  //     /**
+  //    * Initiate Pure Counter
+  //    */
+  //   new PureCounter();
+  // });
 }
