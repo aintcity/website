@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About | Aint City - Decentralized Blockchain Internet City</title>
+  <title>Job Task | Aint City - Decentralized Blockchain Internet City</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -77,7 +77,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>About Aint City</h1>
+              <h1>Aint City Job Task</h1>
               <p class="mb-0">A Web3 Social Network and City-Building Game</p>
             </div>
           </div>
@@ -87,7 +87,8 @@
         <div class="container">
           <ol>
             <li><a href="/">Home</a></li>
-            <li class="current">About</li>
+            <li><a href="/about">About</a></li>
+            <li class="current">Job Task</li>
           </ol>
         </div>
       </nav>
@@ -96,16 +97,78 @@
     <!-- Starter Section Section -->
     <section id="starter-section" class="starter-section section">
 
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Technical Job Task</h2>
+        <p>Aint City Job Application: Technical Task Instructions</p>
+      </div><!-- End Section Title -->
+
       <div class="container" data-aos="fade-up">
-        <p>Aint City is a pioneering Web3 application that redefines social networking by integrating it with an immersive city-building game set in a decentralized, Wild West-inspired metaverse. Built on blockchain technology, Aint City empowers players - known as pioneers - to stake claims, mine digital resources, and construct saloons, ranches, and crypto mines as blockchain-powered NFTs. This fusion of social interaction and strategic gameplay creates a dynamic digital frontier where players connect, compete, and create real-world value in a lawless yet vibrant ecosystem.</p>
 
-        <p>At its core, Aint City is about ownership and freedom. Players mine resources like Gold (GLD), Ore (ORE), and Crypto Shards (CRS) to build and upgrade their virtual settlements, all represented as tradable NFTs. These assets are fully owned by players, enabling seamless trading on external marketplaces like OpenSea. The platform's dual-token system - Aint Token (ANT) for transactions and governance, and CRS for in-game earnings - ensures a sustainable economy where players can earn tangible rewards through strategic play.</p>
+        <p>As part of the application process for roles at Aint City (Full Stack Developer, Backend Developer, Frontend Developer, Project Manager, DevOps Engineer, Social Media Manager), all applicants are required to complete Part 1 of the following technical task. Developers (excluding Project Manager and Social Media Manager applicants) must also complete Part 2. These tasks demonstrate your ability to engage with Aint City’s blockchain-based platform and, for developers, showcase your technical skills.</p>
 
-        <p>Social interaction lies at the heart of Aint City's appeal. Through decentralized, encrypted chat systems, pioneers forge alliances, coordinate strategies, or engage in rival showdowns. Saloons serve as social hubs for events and mini-games, while alliances enable collaborative projects or collective defense against raids. Competitive showdowns, resolved through strategic battles, offer rewards like resources, NFTs, or territorial control, fostering a lively community-driven narrative.</p>
+        <h3><strong>Part 1: Set Up an Aint Node, Mine AINT, and Mint Anote (All Applicants)</strong></h3>
 
-        <p>Aint City leverages cutting-edge Web3 technology for a secure and scalable experience. Built on a layer-1 or layer-2 blockchain (e.g., Ethereum or Polygon), it ensures low-cost transactions and interoperability with other platforms. Smart contracts govern mining, construction, and governance, while IPFS stores assets for true decentralization. The platform's lightweight 3D interface, accessible via browsers and mobile apps, delivers an immersive experience optimized for diverse devices.</p>
+        <p>To familiarize yourself with Aint City's blockchain ecosystem, follow these steps to set up a mining Aint Node, mine AINT tokens, and mint Anote using your mined AINT.</p>
 
-        <p>The vision of Aint City extends beyond gaming to empower a player-owned metaverse. Through a decentralized governance model, ANT token holders vote on platform upgrades, economic policies, and community events, ensuring the frontier evolves with its pioneers. With a roadmap spanning land sales in Q4 2025 to cross-platform interoperability by 2027, Aint City is poised to lead the next wave of Web3 innovation.</p>
+        <ol>
+            <li><strong>Set Up an Aint Node</strong></li>
+            <li><strong>Mine AINT Tokens</strong></li>
+            <li><strong>Mint Anote Tokens</strong></li>
+        </ol>
+
+        <h5><strong>Submission for Part 1</strong></h5>
+
+        <p>When applying for a job, send us these:</p>
+
+        <ul>
+            <li>Your Aint address</li>
+            <li>The transaction ID of your Anote minting</li>
+        </ul>
+
+        <h3><strong>Part 2: Develop a Balance Display App (Developers Only)</strong></h3>
+
+        <p><strong>Note:</strong> This task is required for Full Stack Developer, Backend Developer, Frontend Developer, and DevOps Engineer applicants. Project Manager and Social Media Manager applicants are exempt.</p>
+
+        <p>Develop a small application that displays the AINT balance of your Aint address from Part 1. You may use any programming language or framework, aligning with your role's expertise (e.g., Golang for backend, React/Vue.js for frontend, or any preferred stack for Full Stack/DevOps).</p>
+
+        <h5><strong>App Requirements:</strong></h5>
+
+        <ul>
+            <li>Create a simple app that queries the Aint Chain testnet to retrieve the AINT balance of your address.</li>
+            <li>Use the Aint Chain API endpoint (nodes.aintchain.com).</li>
+            <li>Display the balance in a user-friendly format (e.g., a CLI output for backend, a web interface for frontend, or either for Full Stack/DevOps).</li>
+            <li>Ensure the app handles basic error cases (e.g., invalid address, network issues).</li>
+        </ul>
+
+        <h5><strong>Implementation Guidelines</strong></h5>
+
+        <ul>
+            <li>For <strong>Backend Developers</strong>: Focus on a server-side solution (e.g., a Golang CLI app or API) that queries the balance and outputs it (e.g., JSON or text).</li>
+            <li>For <strong>Frontend Developers</strong>: Build a web interface (e.g., React, Vue.js) that displays the balance dynamically.</li>
+            <li>For <strong>Full Stack Developers</strong>: Combine a backend API with a frontend interface to display the balance.</li>
+            <li>For <strong>DevOps Engineers</strong>: Create a containerized app (e.g., using Docker) with a focus on deployment and scalability, querying the balance via API.</li>
+            <li>Include basic documentation (e.g., a README) explaining how to run the app.</li>
+        </ul>
+
+        <h5><strong>Submission for Part 2</strong></h5>
+
+        <p>Host your code in a public GitHub repository and send us these when applying:</p>
+
+        <ul>
+            <li>The GitHub repository URL.</li>
+            <li>A brief description of your app (language/framework used, how it works).</li>
+            <li>Instructions to run the app (e.g., dependencies, commands).</li>
+            <li>A screenshot or short video showing the app displaying your AINT balance.</li>
+        </ul>
+
+        <h3><strong>Notes</strong></h3>
+
+        <ul>
+            <li>Submit both parts (if applicable) in a single email to jobs@aintcity.com with your resume and cover letter.</li>
+            <li>If you experience any issues or have any questions about Aint Chain, please show initiative and self-sufficiency by asking for community help in <a href="https://t.me/AintCoin" target="_blank">Aint Chain</a> Telegram group.</li>
+        </ul>
+
       </div>
 
     </section><!-- /Starter Section Section -->
